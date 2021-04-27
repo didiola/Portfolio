@@ -1,0 +1,567 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Eurostyle;
+}
+
+.container{
+    background-color: rgb(251, 245, 243);
+    /* padding: 0px 3rem; */
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 3rem 0px; */
+    padding: 3rem 3rem;
+
+}
+
+.btn {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-right: 1.3rem;
+    padding-left: 1.3rem;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 24px;
+    background: transparent;
+    border: 2px solid rgb(0, 0, 34);
+    color: rgb(0, 0, 34);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color:rgb(0, 0, 34);
+    color: white;
+}
+
+.Herosection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    padding: 6rem 0px;
+}
+
+.img-cont{
+    margin-top: 2rem;
+}
+
+.leadtext{
+    font-weight: bold;
+    color: rgb(0, 0, 34);
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.subtext{
+    font-size: 1.5em;
+    color: rgb(0, 0, 34);
+}
+
+.about-section-inner{
+    background-color: rgb(0, 0, 34);
+    padding-bottom: 15rem;
+    padding-top: 10rem;
+    width: 100%;
+}
+
+.text-container{
+    display: block;
+    text-align: center;
+    color: white;
+}
+
+.top{
+    font-weight: bolder;
+    font-size: 1.5em;
+    margin-bottom: 2rem;
+}
+
+.bottom{
+    line-height: 1.6;
+    font-size: 1.45em;
+    font-weight: lighter;
+}
+
+.Skillsection-body1{
+    background-color: #ffffff;
+    display: block;
+    text-align: center;
+    float: left;
+    border-right:1px solid rgb(204, 204, 204);
+    padding: 2rem 0rem;
+    width: 33.33%;
+}
+
+.dev-role{
+    font-weight: bolder;
+    font-size: 1.4em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.text{
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 1.15;
+    color: rgb(51, 51, 51);
+    margin-bottom: 2rem;
+}
+
+.stack{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.mode{
+    font-weight: bolder;
+    font-size: 1.4rem ;
+    margin-bottom: .5rem;
+}
+
+.langs{
+    font-size: 1.2em;
+    font-weight: 500;
+    color: rgb(51, 51, 51);
+}
+
+.stack-container{
+    margin-bottom: 2rem;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.text-1{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin-bottom: 1.1rem;
+}
+
+.text1{
+    font-size: 1.2em;
+    color: rgb(51, 51, 51);
+}
+
+.Skillsection-body2{
+    display: block;
+    text-align: center;
+    background-color: #ffffff;
+    float: left;
+    border-right:1px solid rgb(204, 204, 204);
+    width: 33.33%;
+    padding: 2rem 5rem;
+}
+
+.Skillsection-body3{
+    display: block;
+    text-align: center;
+    background-color:#ffffff;
+    width: 33.33%;
+    padding: 2rem 5rem;
+    float:right
+}
+
+.RW-Container{
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.text4{
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.texty{
+    font-size: 1.45rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.RecentWork-Box{
+    display: flex;
+    flex-direction: row;
+    align-items: space-around;
+    padding: 0px 3rem;
+
+}
+
+.RecentWork-Box1{
+    height: 250px;
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+
+.RecentWork-Box1 .img-sect {
+    background-image: url("/images/avatar.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    position: relative;
+    border-radius: 10px;
+}
+
+
+figcaption{
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.btn-cic{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-right: 1.3rem;
+    padding-left: 1.3rem;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 24px;
+    background: transparent;
+    border: 2px solid rgb(0, 0, 34);
+    color: rgb(0, 0, 34);
+    cursor: pointer;
+}
+
+.btn-cic:hover{
+    background-color: rgb(0, 0, 34);
+    color: white;
+}
+
+.hovertext{
+    font-weight: bolder;
+    font-size: 3rem;
+    color: rgba(255, 255, 0, 0.836);
+}
+
+.RecentWork-Box1 .img-sect .overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.603);
+    border-radius: 10px;
+    color: #ffffff;
+    visibility: hidden;
+}
+
+.RecentWork-Box1 .img-sect .overlay1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.603);
+    border-radius: 10px;
+    color: #ffffff;
+    
+}
+
+.RecentWork-Box1:hover .overlay {
+    visibility: visible;
+}
+
+
+.RecentWork-Box1:hover .overlay1 {
+    visibility: hidden;
+}
+
+.RecentWork-Box2{
+    height: 250px;
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+
+.RecentWork-Box2 .img-sect1 {
+    background-image: url("/images/jamselect-card.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    position: relative;
+    border-radius: 10px;
+}
+
+.RecentWork-Box2 .img-sect1 .overlay-origin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(101, 99, 185, 0.603);
+    border-radius: 10px;
+    color: #ffffff;
+    visibility: hidden;
+}
+
+.RecentWork-Box2 .img-sect1 .overlay2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(101, 99, 185, 0.603);
+    border-radius: 10px;
+    color: #ffffff;
+    
+}
+
+.RecentWork-Box2:hover .overlay-origin {
+    visibility: visible;
+}
+
+
+.RecentWork-Box2:hover .overlay2 {
+    visibility: hidden;
+}
+
+.btn-jam{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-right: 1.3rem;
+    padding-left: 1.3rem;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 24px;
+    background: transparent;
+    border: 2px solid rgb(0, 0, 34);
+    color: rgb(0, 0, 34);
+    cursor: pointer;
+}
+
+.btn-jam:hover{
+    background-color: rgb(0, 0, 34);
+    color: white;
+}
+
+.RecentWork-Box3{
+    height: 250px;
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+
+.RecentWork-Box3 .img-sect2 {
+    background-image: url("/images/biz301.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    position: relative;
+    border-radius: 10px;
+}
+
+.RecentWork-Box3 .img-sect2 .overlay-biz {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /*background-color: rgba(101, 99, 185, 0.603);*/
+    border-radius: 10px;
+    color: #ffffff;
+    visibility: hidden;
+}
+
+.RecentWork-Box3 .img-sect2 .overlay3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /*background-color: rgba(229, 233, 24, 0.603);*/
+    border-radius: 10px;
+    color: #ffffff;
+    
+}
+
+.RecentWork-Box3:hover .overlay-biz {
+    visibility: visible;
+}
+
+
+.RecentWork-Box3:hover .overlay3 {
+    visibility: hidden;
+}
+
+.btn-biz{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-right: 1.3rem;
+    padding-left: 1.3rem;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 24px;
+    background: transparent;
+    border: 2px solid rgb(0, 0, 34);
+    color: rgb(0, 0, 34);
+    cursor: pointer;
+}
+
+.btn-biz:hover{
+    background-color: rgb(0, 0, 34);
+    color: white;
+}
+
+.RecentWork-Box4{
+    height: 250px;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.RecentWork-Box4 .img-sect3 {
+    background-image: url("/images/phony.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    position: relative;
+    border-radius: 10px;
+}
+
+.RecentWork-Box4 .img-sect3 .overlay-phony {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /*background-color: rgba(101, 99, 185, 0.603);*/
+    border-radius: 10px;
+    color: #ffffff;
+    visibility: hidden;
+}
+
+.RecentWork-Box4 .img-sect3 .overlay4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /*background-color: rgba(229, 233, 24, 0.603);*/
+    border-radius: 10px;
+    color: #ffffff;
+    
+}
+
+.RecentWork-Box3:hover .overlay-phony {
+    visibility: visible;
+}
+
+
+.RecentWork-Box4:hover .overlay4 {
+    visibility: hidden;
+}
+
+.btn-phony{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-right: 1.3rem;
+    padding-left: 1.3rem;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 24px;
+    background: transparent;
+    border: 2px solid rgb(0, 0, 34);
+    color: rgb(0, 0, 34);
+    cursor: pointer;
+}
+
+.btn-phony:hover{
+    background-color: rgb(0, 0, 34);
+    color: white;
+}
+
+.hovertext2{
+    font-weight: bolder;
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(226, 132, 19);
+    padding: 6rem 0rem;  
+    border-radius: 13px;
+    margin-bottom: 4rem;
+    margin-right: 6rem;
+    margin-left: 6rem;
+}
+
+.start{
+    font-weight: bolder;
+    font-size: 2em;
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+.inner-text{
+    font-size: 1.3em;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+.btn-hype{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-right: 1.3rem;
+    padding-left: 1.3rem;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 24px;
+    background: transparent;
+    border: 2px solid rgb(0, 0, 34);
+    color: rgb(0, 0, 34);
+    cursor: pointer;
+}
+
+.btn-hype:hover{
+    background-color: rgb(0, 0, 34);
+    color: white;
+}
+
+.footer{
+    display: block;
+    text-align: center;
+    background-color: rgb(0, 0, 34);
+    padding: 6rem 0px; 
+    color: #ffffff;
+    font-size: 1em;
+}
+
+hr{
+    margin-bottom: 4rem;
+}
+
+.Skills-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+    background-color: white;
+    width: 90%;
+    margin: -10rem auto 5rem;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 10px;
+}
+
